@@ -6,7 +6,7 @@ def check_number_sign(number):
     elif number < 0:
         return "Negative"
     else:
-        return ""
+        return "Zero"
 
 
 num = float(input("Enter a number: "))
